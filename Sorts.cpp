@@ -8,7 +8,6 @@
 *					low - bottom spot of array
 *	OUTPUT:	
 *	PROTOTYPE: void Quick_Sort(int list[], int high, int low);
-*   IMPLEMENTED BY: Hennessy 
 **********************************************************************/
 void Quick_Sort/*(Version1)*/(int list[], int high, int low){
 
@@ -58,7 +57,6 @@ void Quick_Sort/*(Version1)*/(int list[], int high, int low){
 *	OUTPUT:	
 *		Return value: none
 *	PROTOTYPE: void Bubble_Sort(int list[], int high, int low);
-*   IMPLEMENTED BY: Hennessy 
 **********************************************************************/
 void Bubble_Sort(int list[], int high, int low){
 	int listTemp;
@@ -87,8 +85,7 @@ void Bubble_Sort(int list[], int high, int low){
 *					low - bottom spot of array
 *	OUTPUT:	
 *		Return:     list[] - sorted list of integers 
-*	PROTOTYPE: void Insert_Sort(int list[], int high, int low);
-*   IMPLEMENTED BY: Mickens 
+*	PROTOTYPE: void Insert_Sort(int list[], int high, int low); 
 **********************************************************************/
 void Insert_Sort (int list[], int high, int low){ 
 
@@ -124,7 +121,6 @@ void Insert_Sort (int list[], int high, int low){
 *	OUTPUT:	
 *		Return:     list[] - sorted list of integers 
 *	PROTOTYPE: void Merge_Sort(int list[], int high, int low);
-*   IMPLEMENTED BY: Mickens 
 **********************************************************************/
 void Merge_Sort (int list[], int high, int low){ 
 
@@ -149,7 +145,6 @@ void Merge_Sort (int list[], int high, int low){
 *	OUTPUT:	
 *		Return:     list[]- sorted list of integers 
 *	PROTOTYPE: void Merge_Sort(int list[], int high, int low);
-*   IMPLEMENTED BY: Mickens 
 **********************************************************************/
 void Merge(int list[], int midIdx, int high, int low){ 
 
